@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,600;0,900;1,100;1,400;1,900&family=Roboto:ital,wght@1,900&display=swap');
+body{
+    background: aliceblue;
+    height: 100dvh;
+    margin: 0;
+
+
+}
+.up_div{
+    background: #0068c2;
+    width: 100%;
+    height: 60%;
+}
+.centre_div{
+    background: #0068c2;
+    width: 100%;
+    height: 60%;
+margin-top:50%;
+}
+.top_header{
+    background: #fcfcfc;
+    width: 100%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+
+}
+.Header{
+    display: flex;
+    align-items: center;
+
+    background: #fcfcfc;
+    width: 100%;
+    height: 15%;
+    border-top: 2px solid #939393;
+}
+.Sub_header{
+    background: #6a94dc;
+    width: 100%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Slider{
+    background: #b9b9ff;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: self-end;
+    justify-content: center;
+    background-image:url("Icon/a.png");
+    background-size: cover;
+}
+.Frame20{
+    display: flex;
+    align-items: center;
+
+    width: 12%;
+    height: 60%;
+    margin: 100px;
+}
+.Frame21{
+    display: flex;
+    align-items: center;
+
+position: absolute;
+    top: 4px;
+    right: 100px;
+
+    width: 34%;
+    height: 3%;
+}
+.Language{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid #ccc;
+    width: 50%;
+    height: 100%;
+}
+.Currency{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid #ccc;
+    width: 50%;
+    height: 100%;
+}
+.Frame22{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 80%;
+    margin: 11%;
+}
+#Language,#Currency{
+    font-size: 18px;
+}
+
+.Icon{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+
+}
+.Frame10{
+    display: flex;
+    align-items: center;
+
+    width: 13%;
+    height: 60%;
+    margin: 5%;
+}
+.icon_menu{
+
+    width: 15%;
+    height: 80%;
+}
+.icon{
+    width: 100%;
+    height: 100%;
+}
+.Logo{
+
+    width: 60%;
+    height: 200%;
+    margin: 10%;
+    margin-top:35px;
+}
+.Input_fields{
+    display: flex;
+    align-items: center;
+
+    width: 38%;
+    height: 50%;
+}
+.Frame30{
+    background: #fcfcfc;
+    width: 90%;
+    height: 100%;
+    border-bottom-left-radius:100px;
+    border-top-left-radius:100px;
+    border: 2px solid #319dff;
+
+}
+.Frame31{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 100%;
+    background: #319dff;
+    border-bottom-right-radius:100px;
+    border-top-right-radius:100px;
+    border: 2px solid #319dff;
+}
+.text{
+    font-size: 16px;
+    width: 210%;
+    height: 50%;
+    margin: 5px;
+
+}
+.links_and_link_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+    height: 100%;
+    border-right: 2px solid #319dff;
+    margin: 0.5%;
+
+}
+.links_and_link_buttons span{
+    font-size: 17px;
+}
+.Slide_dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 3%;
+    height: 3%;
+    margin-bottom: 1%;
+}
+.Rectangle10{
+    background: #fff1f1;
+    border-radius: 100%;
+    width: 20%;
+    height: 80%;
+    margin: 2px;
+    border: 2px solid #319dff;
+}
+.Shop_Features_v1{
+    width: 80%;
+    height: 15%;
+    margin-top:10%;
+    margin-left: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #c9c9c9;
+    border-radius: 10px;
+}
+.Shop_Feature_01{
+    width: 20%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid #c9c9c9;
+
+}
+.Icons{
+    width: 25%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
+.Frame40{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 32%;
+    height: 60%;
+}
+.Social_links{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.transparent_top_bar_buttons{
+
+    width: 20%;
+    height: 100%;
+    border-left: 2px solid #c9c9c9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 9px;
+}
+.social_buttons{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Shop{
+    width: 12%;
+    height: 100%;
+}
+#FAQ{
+    width: 5%;
+    height: 100%;
+
+}
+#Settings{
+    width: 13%;
+    height: 100%;
+}
+img{
+    margin: 10px;
+}
+.Frame60{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    height: 35%;
+    margin: 100px;
+}
+.icon_menu{
+    width: 20%;
+    height: 100%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Featured_products_01{
+ background: #b7b7b7;
+    width: 100%;
+    height: 70%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+}
+.Title_v1{
+    display: flex;
+    align-items: center;
+    background: #0068c2;
+    width:78%;
+    height: 10%;
+}
+.Frame50{
+    display: flex;
+    align-items: center;
+    background: red;
+    width: 80%;
+    height: 85%;
+}
+.Frame51{
+    display: flex;
+    align-items: center;
+
+    width: 20%;
+    height: 90%;
+}
+.Frame52{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80%;
+
+    width: 5%;
+    height: 90%;
+}
+.Frame51,span{
+    color: #000000;
+    font-size:23px;
+}
+button{
+    font-size:23px;
+    outline: none;
+    border: 0;
+
+    color: #6a94dc;
+}
+.Product_card_v1{
+    background: blueviolet;
+    width: 20%;
+    height: 100%;
+    border-left: 2px solid #c9c9c9;
+}
+.Frame53{
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    width: 100%;
+    height: 6%;
+    margin-top: 5%;
+}
+.Product_card_title{
+    background: red;
+    width: 100%;
+    height: 10%;
+    margin-top: 11%;
+}
+.prodcut_photos{
+    width: 70%;
+    height: 52%;
+    background: blue;
+    margin-left: 15%;
+    margin-top: 12%;
+
+}
+.Price_and_add_to_cart{
+    background: #319dff;
+    width: 100%;
+    height: 10%;
+    margin-top: 10%;
+}
+#Smartphones{
+    font-size: 16px;
+}
+#iPhone_14_Pro{
+    font-size: 21px;
+}
