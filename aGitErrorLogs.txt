@@ -1,0 +1,1 @@
+a git error occurred due to deleting the .git folder 
