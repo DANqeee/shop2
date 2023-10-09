@@ -326,10 +326,14 @@ height: 38px;
 }
 
 /* Изменение цвета выпадающих ссылок при наведении курсора */
-.dropdown-content a:hover {background-color: #dde1e8;}
+.dropdown-content a:hover {
+    background-color: #dde1e8;
+    transition: all 0.4s ease;
+
+}
 
 /* Показать выпадающее меню при наведении курсора */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:focus-within .dropdown-content {display: block;}
 
 .dropdown-content a{
     font-family: 'Poppins',sans-serif;
