@@ -14,7 +14,6 @@
     display: flex;
     flex-direction:column ;
     align-items: center;
-
 }
 .bottom_div{
     background: rgba(0, 0, 0, 0);
@@ -28,12 +27,10 @@
     height: 7%;
     display: flex;
     align-items: center;
-
 }
 .Header{
     display: flex;
     align-items: center;
-
     background: #fcfcfc;
     width: 100%;
     height: 15%;
@@ -46,6 +43,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.Slider_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 25%;
+    height: 20%;
+    top: 300px;
+    right:1200px;
+}
+.Slider_text span{
+    font-size: 50px;
 }
 .Slider{
     width: 100%;
@@ -66,7 +76,6 @@
 .Frame20{
     display: flex;
     align-items: center;
-
     width: 12%;
     height: 60%;
     margin: 100px;
@@ -74,20 +83,17 @@
 .Frame21{
     display: flex;
     align-items: center;
-
 position: absolute;
     top: 4px;
     right: 100px;
-
     width: 34%;
     height: 3%;
 }
 .Language{
     display: flex;
     align-items: center;
-    justify-content: center;
     border-right: 2px solid rgba(147, 147, 147, 0.14);
-    width: 50%;
+    width: 70%;
     height: 100%;
 }
 .Currency{
@@ -97,67 +103,131 @@ position: absolute;
     border-right: 2px solid rgba(147, 147, 147, 0.14);
     width: 50%;
     height: 100%;
+    margin-left: 20px;
 }
 .Frame22{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60%;
+    width: 60px;
     height: 80%;
-    margin: 11%;
+    margin-left: 10px;
 }
 #Language,#Currency{
-    font-size: 18px;
-    font-family: 'popins',sans-serif;
+    font-size: 16px;
+    font-family: 'Poppins',sans-serif;
 }
-
 .Icon{
-
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80%;
-
+    width: 80px;
+    height: 80%;
 }
 .Frame10{
     display: flex;
     align-items: center;
-
     width: 13%;
     height: 60%;
     margin: 5%;
 }
 .icon_menu{
-
     width: 15%;
     height: 80%;
 }
 .icon{
-    width: 100%;
-    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    margin-top: 5px;
 }
 .Logo{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+.Logo img{
+    width: 85%;
+    height: 85%;
+}
+.search_field{
 
-    width: 60%;
-    height: 200%;
-    margin: 10%;
-    margin-top:35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    height: 50%;
+   margin-left: 100px;
+}
+.search_field input{
+    padding-left: 20px;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 35px;
+    border: 2px solid #319dff;
+}
+.search_field button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #319dff;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+    width: 45px;
+    height: 41px;
+}
+#search_field:focus{
+    outline: none !important;
+    font-size: 16px;
+    border-color: #319dff;
+ }
+.input_Categories{
+    border-left: 2px solid rgba(147, 147, 147, 0.14);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    top:75px;
+    right:760px;
+    width: 150px;
+    height: 20px;
+}
+.input_Categories_text{
+    display: flex;
+    align-items: center;
+    width: 120px;
+    height: 20px;
+}
+.input_Categories_text span{
+    font-size: 15px;
+    font-family: 'Poppins',sans-serif;
+}
+.input_Categories img{
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
 }
 .Input_fields{
     display: flex;
     align-items: center;
-
+    justify-content: center;
     width: 38%;
     height: 50%;
 }
 .Frame30{
-    background: #fcfcfc;
+    background: #c44040;
     width: 90%;
     height: 100%;
     border-bottom-left-radius:100px;
     border-top-left-radius:100px;
     border: 2px solid #319dff;
-
 }
 .Frame31{
     display: flex;
@@ -170,26 +240,33 @@ position: absolute;
     border-top-right-radius:100px;
     border: 2px solid #319dff;
 }
+.text_up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins',sans-serif;
+    font-size: 14px;
+    width: 180%;
+    height: 50%;
+}
 .text{
-    font-family: 'popins',sans-serif;
-    font-size: 16px;
-    width: 300%;
+    font-family: 'Poppins',sans-serif;
+    font-size: 14px;
+    width: 200%;
     height: 50%;
     margin: 5px;
-
 }
 .links_and_link_buttons{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 8%;
+    width: 10%;
     height: 100%;
     border-right: 2px solid #0187ff;
     margin: 0.5%;
-
 }
 .links_and_link_buttons span{
-    font-size: 17px;
+    font-size: 15px;
 }
 .Slide_dots{
     display: flex;
@@ -200,13 +277,12 @@ position: absolute;
     top: 640px;
     width: 3%;
     height: 2%;
-
 }
 .Rectangle10{
     background: #fff1f1;
     border-radius: 100%;
     width: 20%;
-    height: 80%;
+    height: 70%;
     margin: 2px;
     border: 2px solid #319dff;
 }
@@ -228,7 +304,6 @@ position: absolute;
     align-items: center;
     justify-content: center;
     border-right: 2px solid rgba(147, 147, 147, 0.14);
-
 }
 .Icons{
     width: 25%;
@@ -236,13 +311,12 @@ position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 2px;
 }
 .Frame40{
     display: flex;
     align-items: center;
     justify-content: start;
-    width: 32%;
+    width: 35%;
     height: 60%;
 }
 .Social_links{
@@ -253,14 +327,16 @@ position: absolute;
     justify-content: center;
 }
 .transparent_top_bar_buttons{
-
+        display: flex;
+    align-items: center;
+    justify-content: center;
     width: 20%;
     height: 100%;
     border-left: 2px solid rgba(147, 147, 147, 0.14);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 9px;
+    margin-left: 20px;
+}
+.transparent_top_bar_buttons img{
+    margin-left: 10px;
 }
 .social_buttons{
     width: 20%;
@@ -270,39 +346,40 @@ position: absolute;
     justify-content: center;
 }
 #Shop{
+
     width: 12%;
     height: 100%;
 }
 #FAQ{
-    width: 5%;
+    width: 10%;
     height: 100%;
-
 }
 #Settings{
     width: 13%;
     height: 100%;
 }
-img{
-    margin: 10px;
-}
 .Frame60{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 15%;
+    width: 13%;
     height: 35%;
-    margin: 100px;
+    margin-left: 90px;
 }
 .icon_menu{
-    width: 20%;
+    width: 15%;
     height: 100%;
-    margin: 10px;
+    margin-right: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.icon_menu span{
+    margin-left: 7px;
+    font-size: 15px;
+    font-family: 'Poppins',sans-serif;
+}
 .Featured_products_01{
-
     width: 100%;
     height: 70%;
     margin-top: 1px;
@@ -316,26 +393,22 @@ img{
     align-items: center;
     width:85%;
     height: 10%;
-
 }
 .Frame50{
     display: flex;
     align-items: center;
     width: 85%;
     height: 85%;
-
 }
 .Frame51{
     display: flex;
     align-items: center;
     border-bottom: 2px solid #319dff;
-    width: 15%;
+    width: 18%;
     height: 90%;
-    font-family: 'popins',sans-serif;
-
+    font-family: 'Poppins',sans-serif;
 }
 .Frame52{
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -354,7 +427,6 @@ button{
     border: 0;
     color: #000000;
     background: rgba(255, 255, 255, 0);
-
 }
 .Product_card_v1{
     width: 20%;
@@ -363,17 +435,15 @@ button{
     border-radius: 2%;
     margin-left: 2%;
     margin-bottom: 5%;
-
 }
 .Frame53{
-    font-family: 'popins',sans-serif;
+    font-family: 'Poppins',sans-serif;
     display: flex;
     align-items: center;
     width: 100%;
     height: 6%;
     margin-top: 1%;
     margin-left: 5%;
-
 }
 .Product_card_title{
     width: 101%;
@@ -381,8 +451,7 @@ button{
     margin-top: 9%;
     margin-left: 6%;
     margin-right: 1%;
-    font-family: 'popins',sans-serif;
-
+    font-family: 'Poppins',sans-serif;
 }
 .prodcut_photos img{
     width: 75%;
@@ -391,7 +460,6 @@ button{
     margin-top: 8%;
     background-size: 100% 90%;
     background-repeat:no-repeat;
-
 }
 .Price_and_add_to_cart{
     display: flex;
@@ -399,7 +467,6 @@ button{
     width: 100%;
     height: 10%;
 margin-top:5% ;
-
 }
 .Product_card_v1 span{
     font-size: 14px;
@@ -409,7 +476,6 @@ margin-top:5% ;
     text-decoration:none;
     color: #319dff;
 }
-
 .cost{
     display: flex;
     align-items: center;
@@ -429,40 +495,33 @@ margin-top:5% ;
     height: 80%;
     margin-left: 28%;
     border-radius: 100%;
-
 }
 .Title_Categories{
-
     width: 85%;
     height: 6%;
     margin-top: 1%;
     display: flex;
     align-items: center;
-
 }
 .menu_Categories{
-
     width: 80%;
     height: 80%;
     margin-top: 1%;
-
 }
 .Title_Categories span{
     margin-left: 3%;
     font-size: 30px;
-    font-family: 'popins',sans-serif;
+    font-family: 'Poppins',sans-serif;
     border-bottom: 2px solid #319dff;
     height: 85%;
 }
 .up_Category{
-
     background: #dde1e8;
     width: 100%;
     height: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 .Category_card_v1{
     background: #ffffff;
@@ -470,7 +529,6 @@ margin-top:5% ;
     height: 90%;
     margin-right: 2%;
     border-radius: 3px;
-
 }
 .bottom_Category{
     display: flex;
@@ -479,7 +537,6 @@ margin-top:5% ;
     background: #dde1e8;
     width: 100%;
     height: 50%;
-
 }
 .Frame_Name{
     display: flex;
@@ -488,8 +545,7 @@ margin-top:5% ;
     width: 100%;
     height: 10%;
     margin-top: 3%;
-    font-family: 'popins',sans-serif;
-
+    font-family: 'Poppins',sans-serif;
 }
 .category_photos  {
     display: flex;
@@ -501,9 +557,7 @@ margin-top:5% ;
     margin-top: 3%;
     background-size: 100% 10%;
     background-repeat:no-repeat;
-
 }
-
 .Icon_buttons{
     display: flex;
     align-items: center;
@@ -524,8 +578,6 @@ margin-top:5% ;
 .left_banner{
     display: flex;
     align-items: center;
-
-
     background: linear-gradient(182deg, #F2FFF7 0%, #C3F4FF 100%);
     width: 40%;
     height: 90%;
@@ -547,7 +599,7 @@ margin-top:5% ;
 }
 .text_banner span{
     font-size: 29px;
-    font-family: 'popins',sans-serif;
+    font-family: 'Poppins',sans-serif;
 }
 .img_banner{
     width: 40%;
@@ -569,13 +621,12 @@ margin-top:5% ;
     background: #eef0f4;
     width: 13%;
     height: 80%;
-    margin-left: 28%;
+    margin-left: 130px;
     border-radius: 100%;
 }
 .cost_Big_Deals{
     display: flex;
     align-items: center;
-
     width: 50%;
     height: 60%;
     margin-left: 5%;
@@ -583,11 +634,12 @@ margin-top:5% ;
 .cost_Big_Deals span{
 text-decoration-line:line-through;
     font-size: 15px;
-    font-family: 'popins',sans-serif;
+    font-family: 'Poppins',sans-serif;
 }
 .price{
+
     margin-left: 2%;
-    width: 55%;
+    width: 35%;
     height: 70%;
 }
 .price_discount{
@@ -595,7 +647,7 @@ text-decoration-line:line-through;
 }
 .price_discount span{
     font-size: 20px;
-    font-family: 'popins',sans-serif;
+    font-family: 'Poppins',sans-serif;
     color: #f80707;
 }
 .partners{
@@ -606,7 +658,6 @@ text-decoration-line:line-through;
     height: 30%;
     margin-left: 9%;
     border-radius: 5px;
-
 }
 .partners_up{
     display: flex;
@@ -615,7 +666,6 @@ text-decoration-line:line-through;
     width: 100%;
     height: 50%;
 }
-
 .partners_botton{
     display: flex;
     align-items: center;
@@ -633,7 +683,6 @@ text-decoration-line:line-through;
     margin-right: 1%;
 }
 .partners_img{
-
     width: 65%;
     height: 65%;
     display: flex;
@@ -653,7 +702,6 @@ text-decoration-line:line-through;
     width: 27%;
     height: 90%;
     margin-left: 25px;
-
 }
 .name_Class{
     display: flex;
@@ -677,7 +725,6 @@ text-decoration-line:line-through;
     align-items: center;
     width: 93%;
     height: 80%;
-
 }
 .products_left{
     display: flex;
@@ -712,7 +759,6 @@ text-decoration-line:line-through;
     width: 100%;
     height: 33%;
     margin-top: 10px;
-
 }
 .star{
     width: 20%;
@@ -720,7 +766,6 @@ text-decoration-line:line-through;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 .Price_and_add_to_cart2 .icon{
     background: #dde1e8;
@@ -730,18 +775,18 @@ text-decoration-line:line-through;
     width: 13%;
     height: 90%;
     border-radius: 100%;
-    margin-left:180px;
+    margin-left:50%;
 }
 .Price_and_add_to_cart2 .cost{
     width:30%;
     height: 60%;
-    font-family: 'popins',sans-serif;
+    font-family: 'Poppins',sans-serif;
 }
 .Product_card_title2 a{
     font-size: 20px;
    text-decoration-line: none;
     color: #0077e4;
-    font-family: 'popins',sans-serif;
+    font-family: 'Poppins',sans-serif;
 }
 .name_Class span{
     font-size: 30px;
@@ -752,15 +797,17 @@ text-decoration-line:line-through;
     background: #3b4758;
     width: 100%;
     height: 12%;
-
 }
 .Input_fields{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 30%;
     height: 40%;
     margin-left: 400px;
-
 }
-.Input_fields input{
+.Input_fields  input{
+    padding-left: 20px;
     width: 90%;
     height: 94%;
         border-bottom-left-radius:50px;
@@ -778,16 +825,17 @@ text-decoration-line:line-through;
     border-bottom-right-radius:50px;
 }
 #email_address:focus{
+
     outline: none !important;
     font-size: 16px;
 }
 .text2 span{
     color: #ffffff;
-    font-family: 'popins',sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-size: 17px;
 }
 .text2{
-    width: 30%;
+    width: 32%;
     height: 20%;
     margin-left: 170px;
 }
@@ -800,7 +848,6 @@ text-decoration-line:line-through;
     height: 93%;
     display: flex;
     align-items: center;
-
 }
 .Bottom_footer{
     border-top: 2px solid #7d8fa9;
@@ -828,36 +875,33 @@ text-decoration-line:line-through;
 .information_botton{
     width: 100%;
     height: 85%;
-
 }
 .information{
     width: 70%;
     height: 17%;
     margin-top: 25px;
     display: compact;
-
 }
 .black_span{
     width: 100%;
     height: 50%;
     display: flex;
     align-items: center;
-    font-family: 'popins',sans-serif;
+    font-family: 'Poppins',sans-serif;
 }
 .black_span  span{
     font-size: 20px;
 }
 .thin_span{
-
     display: flex;
     align-items: center;
     width: 100%;
     height: 50%;
-    font-family: 'popins',sans-serif;
+    font-family: 'Poppins',sans-serif;
 }
 .thin_span span{
     font-size: 15px;
-    font-family: 'popins',sans-serif;
+    font-family: 'Poppins',sans-serif;
     color: rgba(88, 106, 132, 0.74);
 }
 .Social_links2{
@@ -877,7 +921,7 @@ text-decoration-line:line-through;
     height: 10%;
     display: flex;
     align-items: center;
-    font-family: 'popins',sans-serif;
+    font-family: 'Poppins',sans-serif;
 }
 .thin_span2{
     width: 100%;
@@ -887,7 +931,7 @@ text-decoration-line:line-through;
 .thin_span2 span{
     font-size: 15px;
     color: rgba(88, 106, 132, 0.74);
-    font-family: 'popins',sans-serif;
+    font-family: 'Poppins',sans-serif;
 }
 .black_span2 span{
     font-size: 20px;
@@ -900,7 +944,7 @@ text-decoration-line:line-through;
 .Shoperz span{
     font-size: 18px;
     color: rgba(88, 106, 132, 0.74);
-    font-family: 'popins',sans-serif;
+    font-family: 'Poppins',sans-serif;
 }
 .Payment_links{
     width: 12%;
@@ -915,4 +959,18 @@ text-decoration-line:line-through;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.text_name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height: 60%;
+}
+.text_name span{
+    font-size: 30px;
+    font-family: 'Poppins',sans-serif;
+}
+.cost{
+    font-family: 'Poppins',sans-serif;
 }

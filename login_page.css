@@ -1,0 +1,174 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("icon_login/задний фон.jpg");
+}
+.login_window{
+    display: compact;
+    margin-top: 200px;
+    background: #ffffff;
+    width: 360px;
+    height: 490px;
+    border-radius: 30px;
+}
+.logo_div{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    width: 300px;
+    height: 70px;
+}
+.login_div{
+    display: compact;
+    width: 300px;
+    height: 420px;
+    margin-left: 30px;
+}
+.up_div{
+    display: compact;
+    width: 300px;
+    height: 230px;
+}
+.bottom_div{
+    width: 300px;
+    height: 170px;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7px;
+    width: 95%;
+    height: 25%;
+}
+.text span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 17px;
+}
+.button_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 7px;
+    margin-top: 10px;
+    border: 2px solid rgb(221, 225, 232);
+    width: 95%;
+    height: 25%;
+}
+.button_div button{
+
+    width: 49%;
+    height: 90%;
+    border-radius: 20px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 17px;
+    border:none;
+}
+.button_div button:hover{
+    background: #dde1e8;
+    color:#ffffff;
+
+    transition: all 0.1s ease;
+}
+.input_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7px;
+    margin-top: 15px;
+    width: 95%;
+    height: 20%;
+    border-radius: 20px;
+}
+.input_div input{
+    padding-left: 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    font-size: 25px;
+    border: 2px solid rgb(221, 225, 232);
+}
+.input_div input:focus{
+    outline: #dde1e8;
+}
+.dummy{
+    margin-left: 7px;
+    width: 95%;
+    height: 1%;
+}
+.button_login{
+    width: 95%;
+    height: 35%;
+    margin-left: 7px;
+    margin-top: 10px;
+    border-radius: 30px;
+    border:none;
+}
+.button_login button{
+    color: #ffffff;
+    border:none;
+}
+.log_in_using{
+
+    margin-top: 20px;
+    width: 100%;
+    height: 45%;
+}
+.back_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    width: 10%;
+    height: 40%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    width: 50%;
+    height: 60%;
+    margin-left: 65px;
+}
+.button_login button{
+    background: #dde1e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 17px;
+}
+.button_login button:hover{
+    background: #b9bbc0;
+}
+.choice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+    height:60%;
+}
+.log_in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    height: 100%;
+    margin-left: 18px;
+    border-radius: 100%;
+    border: 1px solid rgb(221, 225, 232);
+}
+.three_points_horizontal{
+    background: #dde1e8;
+    border-radius: 100%;
+    width: 15%;
+    height: 15%;
+    margin-left: 2px;
+}
