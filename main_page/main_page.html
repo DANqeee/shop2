@@ -5,6 +5,8 @@
     <title>Shoperz</title>
     <link rel="icon" type="image/png" href="Icon/Sh.jpeg ">
     <link rel="stylesheet" href="main_page.css">
+    <script src="test.js"></script>
+
 </head>
 <body>
 <div class="up_div"   >
@@ -24,7 +26,7 @@
 
                 </div>
                 <div class="Icon">
-                    <img src="Icon/down%20arrow.png" height="4" width="8"/>
+                    <img src="Icon/down arrow.png" height="4" width="8"/>
                 </div>
             </div>
             <div class="Currency">
@@ -58,7 +60,7 @@
             </div>
             <div id="Shop" class="transparent_top_bar_buttons">
                 <img src="icon bar up/Shop.png" height="14" width="14"/>
-                <span  class="text_up">Shop</span>
+                <a href="http://localhost:63342/shop/catalog_page/catalog_page.html?_ijt=jnl8ktd6muokuu0rtskat0glud&_ij_reload=RELOAD_ON_SAVE"> <span  class="text_up">Shop</span></a>
             </div>
             <div id="Settings" class="transparent_top_bar_buttons">
                 <img src="icon bar up/Settings.png" height="14" width="14"/>
@@ -79,8 +81,10 @@
                 <img src="Icon/Shoperz.png" height="61" width="224"/></div>
         </div>
         <div class="search_field">
-                <input type="text" id="search_field" placeholder="Search for products">
-                <button><img src="Icon/magnifier.png" height="22" width="22"/></button>
+            <form id="input_field" method="post" onsubmit="return checkForm(this)">
+                <input type="text" name="search" id="search_field" placeholder="Search for products">
+                <button type="submit" name="submit" id="search_id"><img src="Icon/magnifier.png" height="22" width="22"/></button>
+            </form>
             <div class="input_Categories">
                 <div class="input_Categories_text"><span>All Categories</span></div>
                <img src="Icon/down%20arrow.png" height="4" width="8"/>
