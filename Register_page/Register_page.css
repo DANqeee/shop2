@@ -1,0 +1,142 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../login_page/icon_login/задний фон.jpg");
+}
+.Register_window{
+    display: compact;
+    margin-top: 200px;
+    background: #ffffff;
+    width: 370px;
+    height: 470px;
+    border-radius: 30px;
+}
+.Reg_div{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    width: 300px;
+    height: 60px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    width: 50%;
+    height: 60%;
+    margin-left: 65px;
+}
+.back_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    width: 10%;
+    height: 40%;
+}
+.Reg{
+    display: compact;
+    margin-left: 18px;
+    width: 90%;
+    height: 400px;
+}
+.up_div{
+    display: compact;
+    width: 335px;
+    height: 230px;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    width: 95%;
+    height: 30px;
+}
+.text span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 22px;
+}
+
+.text2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    width: 95%;
+    height: 30px;
+}
+.text2 span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+}
+.text2 a{
+    text-decoration-line: none;
+    color: #0187ff;
+}
+.input_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+    margin-top: 15px;
+    width: 95%;
+    height: 24%;
+
+    border-radius: 20px;
+}
+.input_div input{
+    padding-left: 20px;
+    width: 300px;
+    height: 90%;
+    border-radius: 20px;
+    font-size: 25px;
+    border: 2px solid rgb(221, 225, 232);
+}
+.input_div input:focus{
+    outline: #dde1e8;
+}
+.bottom_div{
+margin-top: 50px;
+    width: 333px;
+    height: 100px;
+}
+.dummy{
+    margin-left: 7px;
+    width: 95%;
+    height: 1%;
+}
+.button_login{
+    width: 95%;
+    height: 52px;
+    margin-left: 7px;
+    border-radius: 30px;
+    border:none;
+}
+.button_login button{
+    color: #ffffff;
+    border:none;
+}
+.button_login button:hover{
+    transition: 0.3s;
+    background: #bbbbbb;
+}
+.button_login button{
+    background: #dde1e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 17px;
+
+}
+.log_in_using{
+    margin-top: 20px;
+    width: 100%;
+    height: 45%;
+}

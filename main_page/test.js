@@ -21,15 +21,25 @@ var Laptop_HP_250_G9 = new products("LaptopsPCs","Laptop HP 250 G9, Procesor Int
 var Canon_EF_S = new products("PhotoVideo","Canon EF-S 18-135mm f/3.5-5.6 IS USM Nano","5","510")
 
 
-let products2 = [Apple_iPhone_14_Pro,D_SLR_Canon_EOS_R10,PC_DELL_Vostro,Laptop_2in1_Asus,Sony_SRS_XP700,Laptop_HP_250_G9,Canon_EF_S,Phone_Nokia_8210];
+let products2 = [Apple_iPhone_14_Pro,D_SLR_Canon_EOS_R10,PC_DELL_Vostro,Laptop_2in1_Asus,Sony_SRS_XP700,Laptop_HP_250_G9,Canon_EF_S,Phone_Nokia_8210,Headphones_Noise_cancelling,SONY_SRSXV900];
 function yes(item,i){
     console.log(item,i)
     console.log('Nise')
 }
-var  user_input = "";
+var  user_input  = "" ;
+
 function checkForm(el){
-    user_input = el.search.value;
-   products2.forEach(function (item,i){
+    user_input = el.search.value.toLowerCase();
+
+
+    // var field = document.getElementById("search_id1");
+    // if (sessionStorage.getItem("autosave")) {
+    //     field.value = sessionStorage.getItem("autosave");
+    // }
+
+
+
+      products2.forEach(function (item,i){
         if(user_input === item['kcategory']){
             yes(item,i);
         }
@@ -50,26 +60,26 @@ function checkForm(el){
        for (let i = 0; i < product.length ; i += 1)
            product[i].classList.add('None');
    }
-if (user_input === "TVAudio"){
+if (user_input === "tvaudio"){
     product_none();
     product = document.querySelectorAll(".TVAudio");
     for (let i = 0; i < product.length ; i += 1)
         product[i].classList.remove('None');
     return false;
 }
-else if (user_input === "Smartphones"){
+else if (user_input === "smartphones"){
     product_none();
     product = document.querySelectorAll(".Smartphones");
     for (let i = 0; i < product.length ; i += 1)
         product[i].classList.remove('None');
 }
-else if (user_input === "PhotoVideo"){
+else if (user_input === "photoVideo"){
     product_none();
     product = document.querySelectorAll(".PhotoVideo");
     for (let i = 0; i < product.length ; i += 1)
         product[i].classList.remove('None');
 }
-else if (user_input === "LaptopsPCs"){
+else if (user_input === "laptopsPCs"){
     product_none();
     product = document.querySelectorAll(".LaptopsPCs");
     for (let i = 0; i < product.length ; i += 1)
@@ -81,8 +91,16 @@ else if (user_input === ""){
         product[i].classList.remove('None');
 }
 else {
-    console.log("sory");
+    alert(" По вашему запросу ничего не найдено");
 }
+
+var checbox = '';
+    checbox = document.querySelector(".five");
+    if (checbox === true) {
+        console.log('dawdd');
+
+    }
+
 
     return false;
 }
